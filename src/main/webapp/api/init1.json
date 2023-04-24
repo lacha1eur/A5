@@ -1,0 +1,39 @@
+{
+  "homeInfo": {
+    "title": "Home",
+    "href": "welcome"
+  },
+  "logoInfo": {
+    "title": "Book Management",
+    "image": "images/2.jpg",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "Function Management",
+      "icon": "fa fa-bars",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "Borrow Management",
+          "href": "lendListIndex",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "Book Management",
+          "href": "bookIndex",
+          "icon": "fa fa-book",
+          "target": "_self"
+        },
+        {
+          "title": "Type Management",
+          "href": "typeIndex",
+          "icon": "fa fa-file-text",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}

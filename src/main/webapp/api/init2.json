@@ -1,0 +1,35 @@
+{
+  "homeInfo": {
+    "title": "Home",
+    "href": "welcome"
+  },
+  "logoInfo": {
+    "title": "Library Management",
+    "image": "images/2.jpg",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "Function Management",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+
+        {
+          "title": "Borrowing Management",
+          "href": "queryLookBookList2",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        },
+        {
+          "title": "Book Borrowing",
+          "href": "lendListIndexOfReader",
+          "icon": "fa fa-gears",
+          "target": "_self"
+        }
+      ]
+    }
+
+  ]
+}

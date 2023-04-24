@@ -1,0 +1,39 @@
+{
+  "homeInfo": {
+    "title": "Home",
+    "href": "welcome"
+  },
+  "logoInfo": {
+    "title": "Book Management",
+    "image": "images/2.jpg",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "Function Management",
+      "icon": "fa fa-bars",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "Reader Management",
+          "href": "readerIndex",
+          "icon": "fa fa-credit-card",
+          "target": "_self"
+        },
+        {
+          "title": "Employee Management",
+          "href": "workerIndex",
+          "icon": "fa fa-user",
+          "target": "_self"
+        },
+        {
+          "title": "Type Management",
+          "href": "typeIndex",
+          "icon": "fa fa-file-text",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
